@@ -1,0 +1,7 @@
+exports[`mobileProfileSettingPageReducer returns the initial state 1`] = `
+Object {
+  "isMobileProfileSettingPageError": false,
+  "isMobileProfileSettingPageLoading": false,
+  "profile": null,
+}
+`;

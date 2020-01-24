@@ -1,0 +1,6 @@
+export const OPEN_INVITE_MODAL = 'app/global/OPEN_INVITE_MODAL';
+export const CLOSE_INVITE_MODAL = 'app/global/CLOSE_INVITE_MODAL';
+
+export const CREATE_INVITE_KEY_REQUEST = 'app/global/CREATE_INVITE_KEY_REQUEST';
+export const CREATE_INVITE_KEY_SUCCESS = 'app/global/CREATE_INVITE_KEY_SUCCESS';
+export const CREATE_INVITE_KEY_FAILURE = 'app/global/CREATE_INVITE_KEY_FAILURE';

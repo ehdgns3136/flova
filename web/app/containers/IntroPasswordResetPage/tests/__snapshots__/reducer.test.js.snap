@@ -1,0 +1,8 @@
+exports[`passwordResetPageReducer returns the initial state 1`] = `
+Object {
+  "email": "",
+  "passwordKey": "",
+  "validate": null,
+  "validateLoading": true,
+}
+`;

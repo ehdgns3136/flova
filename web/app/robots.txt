@@ -1,0 +1,25 @@
+User-agent: *
+Allow: /intro
+Allow: /question/*
+Allow: /answer/*
+Allow: /user/*
+Allow: /topic/*
+Disallow: /intro/password_reset/*
+Disallow: /invite/*
+Allow: /signup
+Allow: /email_check
+Allow: /about/*
+Allow: /search
+Allow: /user/*/credential
+Disallow: /write_question
+Disallow: /question/*/write_answer
+Disallow: /question/*/followers
+Disallow: /answer/*/edit
+Disallow: /answer/*/likers
+Disallow: /create_invitement
+Disallow: /settings/password
+Disallow: /settings/profile
+Disallow: /settings
+Disallow: /notification
+
+Sitemap: https://www.flova.kr/sitemap.xml

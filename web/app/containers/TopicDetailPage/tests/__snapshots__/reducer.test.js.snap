@@ -1,0 +1,9 @@
+exports[`topicDetailPageReducer returns the initial state 1`] = `
+Object {
+  "activeItem": "popularQuestions",
+  "contents": Array [],
+  "isContentsLoading": true,
+  "isTopicDetailLoading": true,
+  "topic": null,
+}
+`;

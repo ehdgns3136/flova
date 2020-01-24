@@ -1,0 +1,71 @@
+exports[`homePageReducer should change active category correctly 1`] = `
+Object {
+  "activeCategory": "topic/3",
+  "activities": Array [],
+  "isError": false,
+  "isLoading": false,
+  "nextCursor": null,
+  "previousCursor": null,
+}
+`;
+
+exports[`homePageReducer should get activites correctly 1`] = `
+Object {
+  "activeCategory": "home",
+  "activities": Array [
+    Object {
+      "activity_data": Object {
+        "content_class": "Answer",
+        "created": "2017-11-24T03:08:44.568349Z",
+        "following_users": Array [
+          3,
+        ],
+        "id": 62,
+        "type": "answer_liked_by_following_user",
+      },
+      "content": Object {
+        "answer": 2,
+        "question": 4,
+      },
+    },
+  ],
+  "isError": false,
+  "isLoading": false,
+  "nextCursor": "http://localhost:8000/feed/main/?cursor=cD0yMDE3LTExLTIyKzA2JTNBMDglM0EzMC40MjgxOTElMkIwMCUzQTAw",
+  "previousCursor": null,
+}
+`;
+
+exports[`homePageReducer should get questions correctly 1`] = `
+Object {
+  "activeCategory": "home",
+  "activities": Array [
+    Object {
+      "content": Object {
+        "answer": 6,
+        "question": 8,
+      },
+    },
+    Object {
+      "content": Object {
+        "question": 7,
+      },
+    },
+  ],
+  "isError": false,
+  "isLoading": false,
+  "nextCursor": null,
+  "previousCursor": null,
+}
+`;
+
+exports[`homePageReducer should return the initial state 1`] = `
+Object {
+  "activeCategory": "home",
+  "activities": Array [],
+  "isError": false,
+  "isLoading": false,
+  "nextCursor": null,
+  "previousCursor": null,
+}
+`;

@@ -1,0 +1,8 @@
+exports[`invitePageReducer returns the initial state 1`] = `
+Object {
+  "inviteKey": null,
+  "invitedName": null,
+  "isValidating": false,
+  "validateError": null,
+}
+`;

@@ -1,0 +1,13 @@
+exports[`introPageReducer handles loginSuccessAction 1`] = `
+Object {
+  "isLoading": false,
+  "loginError": false,
+}
+`;
+
+exports[`introPageReducer returns the initial state 1`] = `
+Object {
+  "isLoading": false,
+  "loginError": false,
+}
+`;

@@ -1,0 +1,17 @@
+export const GET_TOPIC_DETAIL_REQUEST = 'app/TopicDetailPage/GET_TOPIC_DETAIL_REQUEST';
+export const GET_TOPIC_DETAIL_SUCCESS = 'app/TopicDetailPage/GET_TOPIC_DETAIL_SUCCESS';
+export const GET_TOPIC_DETAIL_FAILURE = 'app/TopicDetailPage/GET_TOPIC_DETAIL_FAILURE';
+
+export const CHANGE_ACTIVE_ITEM = 'app/TopicDetailPage/CHANGE_ACTIVE_ITEM';
+
+export const GET_CONTENTS_REQUEST = 'app/TopicDetailPage/GET_CONTENTS_REQUEST';
+export const GET_CONTENTS_SUCCESS = 'app/TopicDetailPage/GET_CONTENTS_SUCCESS';
+export const GET_CONTENTS_FAILURE = 'app/TopicDetailPage/GET_CONTENTS_FAILURE';
+
+export const FOLLOW_TOPIC_REQUEST = 'app/TopicDetailPage/FOLLOW_TOPIC_REQUEST';
+export const FOLLOW_TOPIC_SUCCESS = 'app/TopicDetailPage/FOLLOW_TOPIC_SUCCESS';
+export const FOLLOW_TOPIC_FAILURE = 'app/TopicDetailPage/FOLLOW_TOPIC_FAILURE';
+
+export const UPDATE_TOPIC_IMAGE_REQUEST = 'app/TopicDetailPage/UPDATE_TOPIC_IMAGE_REQUEST';
+export const UPDATE_TOPIC_IMAGE_SUCCESS = 'app/TopicDetailPage/UPDATE_TOPIC_IMAGE_SUCCESS';
+export const UPDATE_TOPIC_IMAGE_FAILURE = 'app/TopicDetailPage/UPDATE_TOPIC_IMAGE_FAILURE';

@@ -1,0 +1,54 @@
+version: '3'
+services:
+    web:
+        build: ./web
+        env_file:
+            - ./web/.dev.env
+        command: yarn start
+        ports:
+            - '3000:3000'
+        volumes:
+            - './web/app:/web/app'
+    server:
+        build: ./server
+        command: python3 manage.py runserver 0.0.0.0:8000
+        tty: true
+        env_file:
+            - ./server/.dev.env
+        ports:
+            - '8000:8000'
+        volumes:
+            - './server:/server'
+        depends_on:
+            - postgres
+            - redis
+            - es
+            - celery
+    postgres:
+        image: postgres:10.1
+        volumes:
+            - 'postgres:/var/lib/postgresql/data'
+    redis:
+        image: redis:4.0.2
+        volumes:
+            - 'redis:/data'
+    es:
+        image: elasticsearch:2.4.4
+        volumes:
+            - 'es:/usr/share/elasticsearch/data'
+    celery:
+        build: ./server
+        command: celery -A wonder_server worker -Q feed,notification -l info
+        tty: true
+        env_file:
+            - ./server/.dev.env
+        volumes:
+            - './server:/server'
+        depends_on:
+            - rabbitmq
+    rabbitmq:
+        image: rabbitmq:3.6.14
+volumes:
+    postgres:
+    redis:
+    es:

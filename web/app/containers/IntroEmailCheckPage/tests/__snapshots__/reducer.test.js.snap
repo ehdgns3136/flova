@@ -1,0 +1,6 @@
+exports[`introEmailCheckPageReducer returns the initial state 1`] = `
+Object {
+  "emailExist": null,
+  "isLoading": false,
+}
+`;

@@ -1,0 +1,12 @@
+exports[`answerReducer should return the initial state 1`] = `
+Object {
+  "initialContent": null,
+  "initialTitle": null,
+  "isAnswerUploadError": false,
+  "isAnswerUploading": false,
+  "isLikerModalOpened": false,
+  "isLikersLoading": false,
+  "likers": null,
+  "questionID": null,
+}
+`;

@@ -1,0 +1,61 @@
+version: '3'
+services:
+    nginx:
+        build: ./server/nginx
+        restart: always
+        ports:
+            - '80:80'
+            - '443:443'
+        depends_on:
+            - django_uwsgi
+            - django_asgi
+            - django_worker
+    django_uwsgi:
+        build: ./server
+        command: uwsgi --socket :8000 --module wonder_server.wsgi
+        restart: always
+        env_file:
+            - ./server/.prod.env
+        depends_on:
+            - redis
+            - es
+            - celery
+            - rabbitmq
+    django_asgi:
+        build: ./server
+        command: daphne -b 0.0.0.0 -p 8002 wonder_server.asgi:channel_layer
+        restart: always
+    django_worker:
+        build: ./server
+        command: python3 manage.py runworker
+        restart: always
+        tty: true
+        env_file:
+            - ./server/.prod.env
+        depends_on:
+            - redis
+    redis:
+        image: redis:4.0.2
+        restart: always
+        volumes:
+            - 'redis:/data'
+    es:
+        image: elasticsearch:2.4.4
+        restart: always
+        volumes:
+            - 'es:/usr/share/elasticsearch/data'
+    celery:
+        build: ./server
+        command: celery -A wonder_server worker -Q feed,notification -l info
+        restart: always
+        tty: true
+        env_file:
+            - ./server/.prod.env
+        depends_on:
+            - rabbitmq
+    rabbitmq:
+        image: rabbitmq:3.6.14
+        restart: always
+volumes:
+    redis:
+    es:

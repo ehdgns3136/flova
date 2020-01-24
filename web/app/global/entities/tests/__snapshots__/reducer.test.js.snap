@@ -1,0 +1,48 @@
+exports[`entitiesReducer should merge entities correctly 1`] = `
+Object {
+  "questions": Object {
+    "1": Object {
+      "content": "test content",
+      "id": 1,
+      "title": "test",
+    },
+  },
+}
+`;
+
+exports[`entitiesReducer should merge entities correctly 2`] = `
+Object {
+  "questions": Object {
+    "1": Object {
+      "content": "test content",
+      "id": 1,
+      "title": "test",
+    },
+    "2": Object {
+      "content": "test 2 content",
+      "id": 2,
+      "title": "test 2",
+    },
+  },
+}
+`;
+
+exports[`entitiesReducer should merge entities correctly 3`] = `
+Object {
+  "questions": Object {
+    "1": Object {
+      "additionalData": "additional data",
+      "content": "test content",
+      "id": 1,
+      "title": "test",
+    },
+    "2": Object {
+      "content": "test 2 content",
+      "id": 2,
+      "title": "test 2",
+    },
+  },
+}
+`;
+
+exports[`entitiesReducer should return the initial state 1`] = `Object {}`;

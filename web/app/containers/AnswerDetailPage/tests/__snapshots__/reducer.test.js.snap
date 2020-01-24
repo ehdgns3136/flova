@@ -1,0 +1,8 @@
+exports[`answerDetailPageReducer returns the initial state 1`] = `
+Object {
+  "answer": null,
+  "isAnswerLoading": false,
+  "isQuestionLoading": false,
+  "question": null,
+}
+`;

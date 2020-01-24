@@ -1,0 +1,197 @@
+[
+  {
+    "model": "topic.Topic",
+    "pk": 1,
+    "fields": {
+      "title": "스타트업",
+      "topic_image": "https://s3.ap-northeast-2.amazonaws.com/flova/topics/startup.jpeg",
+      "description": "스타트업(영어: startup)은 설립한 지 오래되지 않은 신생 벤처기업을 뜻한다. 미국 실리콘밸리에서 생겨난 용어로서, 혁신적 기술과 아이디어를 보유한 설립된 지 얼마되지 않은 창업 기업이다. 자체적인 비즈니스모델을 가지고 있는 작은 그룹이나 프로젝트성 회사이다."
+    }
+  },
+  {
+    "model": "topic.Topic",
+    "pk": 2,
+    "fields": {
+      "title": "테크",
+      "topic_image": "https://s3.ap-northeast-2.amazonaws.com/flova/topics/tech.jpeg"
+    }
+  },
+  {
+    "model": "topic.Topic",
+    "pk": 3,
+    "fields": {
+      "title": "비즈니스 모델",
+      "topic_image": "https://s3.ap-northeast-2.amazonaws.com/flova/topics/business_model.jpeg",
+      "description": "비즈니스 모델(business model)은 기업 업무, 제품 및 서비스의 전달 방법, 이윤을 창출하는 방법을 나타낸 모형이다. 기업이 지속적으로 이윤을 창출하기 위해 제품 및 서비스를 생산하고, 관리하며, 판매하는 방법을 표현한다. 또, 사업 모형은 제품이나 서비스를 소비자에게 어떻게 제공하고 마케팅하며, 돈을 벌 것인지 계획하거나 사업 아이디어를 말한다."
+    }
+  },
+  {
+    "model": "topic.Topic",
+    "pk": 4,
+    "fields": {
+      "title": "마케팅",
+      "topic_image": "https://s3.ap-northeast-2.amazonaws.com/flova/topics/marketing.jpeg",
+      "description": "마케팅(Marketing)은 수요를 관리하는 경영학의 한 분야이다. 마케팅은 광고, 영업 등을 포함하여 창의성을 갖는 산업으로 비쳐왔으며 또한 소비자가 가질 만한 미래의 요구와 욕구를 예측하는 일로 한정되었으나 21세기 이후의 마케팅은 어떤 잠재적인 욕구를 자극하여 표면상으로 이끌어 내는 행위나 동기로서 용어의 범위가 시장에서 벗어나 일상의 행위에서도 마케팅이라는 용어가 등장하였다."
+    }
+  },
+  {
+    "model": "topic.Topic",
+    "pk": 5,
+    "fields": {
+      "title": "알고리즘",
+      "topic_image": "https://s3.ap-northeast-2.amazonaws.com/flova/topics/algorithm.jpeg",
+      "description": "알고리즘(라틴어, 독일어: Algorithmus, 영어: algorithm 알고리듬[*], IPA: [ǽlɡərìðm])이란 어떠한 문제를 해결하기 위한 여러 동작들의 모임이다. 유한성을 가지며, 언젠가는 끝나야 하는 속성을 가지고 있다. 수학과 컴퓨터 과학에서 알고리즘이란 작동이 일어나게 내재하는 단계적 집합이다."
+    }
+  },
+  {
+    "model": "topic.Topic",
+    "pk": 6,
+    "fields": {
+      "title": "블록체인",
+      "topic_image": "https://s3.ap-northeast-2.amazonaws.com/flova/topics/block_chain.jpeg",
+      "description": "블록체인(영어: block chain, blockchain)은 공공 거래 장부이며 가상 화폐로 거래할 때 발생할 수 있는 해킹을 막는 기술이다. 분산 데이터베이스의 한 형태로, 지속적으로 성장하는 데이터 기록 리스트로서 분산 노드의 운영자에 의한 임의 조작이 불가능하도록 고안되었다."
+    }
+  },
+  {
+    "model": "topic.Topic",
+    "pk": 7,
+    "fields": {
+      "title": "프로그래밍",
+      "topic_image": "https://s3.ap-northeast-2.amazonaws.com/flova/topics/programming.jpeg",
+      "description": "프로그래밍(programming) 혹은 코딩(coding)은 하나 이상의 관련된 추상 알고리즘을 특정한 프로그래밍 언어를 이용해 구체적인 컴퓨터 프로그램으로 구현하는 기술을 말한다."
+    }
+  },
+  {
+    "model": "topic.Topic",
+    "pk": 8,
+    "fields": {
+      "title": "인공지능",
+      "topic_image": "https://s3.ap-northeast-2.amazonaws.com/flova/topics/artificial_intelligence.jpeg",
+      "description": "인공지능'(人工知能, 영어: artificial intelligence, 'AI')은 기계로부터 만들어진 지능을 말한다. 컴퓨터 공학에서 이상적인 지능을 갖춘 존재, 혹은 시스템에 의해 만들어진 지능, 즉 인공적인 지능을 뜻한다. 일반적으로 범용 컴퓨터에 적용한다고 가정한다. 이 용어는 또한 그와 같은 지능을 만들 수 있는 방법론이나 실현 가능성 등을 연구하는 과학 분야를 지칭하기도 한다."
+    }
+  },
+  {
+    "model": "topic.Topic",
+    "pk": 9,
+    "fields": {
+      "title": "머신러닝",
+      "topic_image": "https://s3.ap-northeast-2.amazonaws.com/flova/topics/machine_learning.jpeg",
+      "description": "머신 러닝(영어: machine learning)은 인공 지능의 한 분야로, 컴퓨터가 학습할 수 있도록 하는 알고리즘과 기술을 개발하는 분야를 말한다. 가령, 기계 학습을 통해서 수신한 이메일이 스팸인지 아닌지를 구분할 수 있도록 훈련할 수 있다."
+    }
+  },
+  {
+    "model": "topic.Topic",
+    "pk": 10,
+    "fields": {
+      "title": "그로스 해킹",
+      "topic_image": "https://s3.ap-northeast-2.amazonaws.com/flova/topics/growth_hacking.jpeg"
+    }
+  },
+  {
+    "model": "topic.Topic",
+    "pk": 11,
+    "fields": {
+      "title": "비트코인",
+      "topic_image": "https://s3.ap-northeast-2.amazonaws.com/flova/topics/bitcoin.jpeg",
+      "description": "비트코인(bitcoin)은 블록체인 기술을 기반으로 만들어진 온라인 암호화폐이다. 비트코인의 화폐 단위는 BTC로 표시한다. 2008년 10월 사토시 나카모토라는 가명을 쓰는 프로그래머가 개발하여, 2009년 1월 프로그램 소스를 배포했다. 중앙은행이 없이 전 세계적 범위에서 P2P 방식으로 개인들 간에 자유롭게 송금 등의 금융거래를 할 수 있게 설계되어 있다. 거래장부는 블록체인 기술을 바탕으로 전 세계적인 범위에서 여러 사용자들의 서버에 분산하여 저장하기 때문에 해킹이 사실상 불가능하다. SHA-256 기반의 암호 해시 함수를 사용한다."
+    }
+  },
+  {
+    "model": "topic.Topic",
+    "pk": 12,
+    "fields": {
+      "title": "웹 개발",
+      "topic_image": "https://s3.ap-northeast-2.amazonaws.com/flova/topics/web_development.jpeg",
+      "description": "웹 개발(web development)은 인터넷(월드 와이드 웹)이나 인트라넷(사설망)을 위한 웹사이트를 개발하는 일을 가리킨다. 웹 개발은 가장 단순한 단일 정적 문서의 플레인 텍스트에서부터 가장 복잡한 웹 기반 인터넷 애플리케이션, 전자 비즈니스, 소셜 네트워크 서비스에 이르기까지 개발 범위가 다양하다."
+    }
+  },
+  {
+    "model": "topic.Topic",
+    "pk": 13,
+    "fields": {
+      "title": "게임 개발",
+      "topic_image": "https://s3.ap-northeast-2.amazonaws.com/flova/topics/game_development.jpeg"
+    }
+  },
+  {
+    "model": "topic.Topic",
+    "pk": 14,
+    "fields": {
+      "title": "딥러닝",
+      "topic_image": "https://s3.ap-northeast-2.amazonaws.com/flova/topics/deep_learning.jpeg",
+      "description": "딥 러닝(영어: deep learning), 심층학습(深層學習)은 여러 비선형 변환기법의 조합을 통해 높은 수준의 추상화(abstractions, 다량의 데이터나 복잡한 자료들 속에서 핵심적인 내용 또는 기능을 요약하는 작업)를 시도하는 기계학습(machine learning) 알고리즘의 집합으로 정의되며, 큰 틀에서 사람의 사고방식을 컴퓨터에게 가르치는 기계학습의 한 분야라고 이야기할 수 있다."
+    }
+  },
+  {
+    "model": "topic.Topic",
+    "pk": 15,
+    "fields": {
+      "title": "플로바",
+      "topic_image": "https://s3.ap-northeast-2.amazonaws.com/flova/topics/flova.jpeg"
+    }
+  },
+  {
+    "model": "topic.Topic",
+    "pk": 17,
+    "fields": {
+      "title": "암호화폐",
+      "topic_image": "https://s3.ap-northeast-2.amazonaws.com/flova/b74c1205-89a4-4b37-996a-490e04b60feb.png"
+    }
+  },
+  {
+    "model": "topic.Topic",
+    "pk": 55,
+    "fields": {
+      "title": "창업",
+      "topic_image": "https://s3.ap-northeast-2.amazonaws.com/flova/b74c1205-89a4-4b37-996a-490e04b60feb.png"
+    }
+  },
+  {
+    "model": "topic.Topic",
+    "pk": 56,
+    "fields": {
+      "title": "법률",
+      "topic_image": "https://s3.ap-northeast-2.amazonaws.com/flova/b74c1205-89a4-4b37-996a-490e04b60feb.png"
+    }
+  },
+  {
+    "model": "topic.Topic",
+    "pk": 57,
+    "fields": {
+      "title": "회계",
+      "topic_image": "https://s3.ap-northeast-2.amazonaws.com/flova/b74c1205-89a4-4b37-996a-490e04b60feb.png"
+    }
+  },
+  {
+    "model": "topic.Topic",
+    "pk": 58,
+    "fields": {
+      "title": "세무",
+      "topic_image": "https://s3.ap-northeast-2.amazonaws.com/flova/b74c1205-89a4-4b37-996a-490e04b60feb.png"
+    }
+  },
+  {
+    "model": "topic.Topic",
+    "pk": 59,
+    "fields": {
+      "title": "재무",
+      "topic_image": "https://s3.ap-northeast-2.amazonaws.com/flova/b74c1205-89a4-4b37-996a-490e04b60feb.png"
+    }
+  },
+  {
+    "model": "topic.Topic",
+    "pk": 60,
+    "fields": {
+      "title": "인사관리",
+      "topic_image": "https://s3.ap-northeast-2.amazonaws.com/flova/b74c1205-89a4-4b37-996a-490e04b60feb.png"
+    }
+  },
+  {
+    "model": "topic.Topic",
+    "pk": 61,
+    "fields": {
+      "title": "투자",
+      "topic_image": "https://s3.ap-northeast-2.amazonaws.com/flova/b74c1205-89a4-4b37-996a-490e04b60feb.png"
+    }
+  }
+]
