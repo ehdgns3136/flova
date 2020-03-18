@@ -224,7 +224,7 @@
     "invariant": "2.2.2",
     "ip": "1.1.4",
     "lodash": "4.17.2",
-    "minimist": "1.2.0",
+    "minimist": "1.2.2",
     "moment": "^2.18.1",
     "node-fetch": "^1.7.3",
     "normalizr": "^3.2.4",
